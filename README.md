@@ -29,6 +29,17 @@ Usage of mqtt-benchmark:
   -delay=50: Delay (ms) between start each client
 ```
 
+Example of broker url:
+
+tcp://localhost:1883
+
+ws://websocketapp:80
+
+wss://websocketapp:443
+
+ws://websocketapp/ws
+
+
 Two output formats supported: human-readable plain text and JSON.
 
 Example use and output:
