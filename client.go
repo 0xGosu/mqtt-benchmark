@@ -7,7 +7,7 @@ import (
 )
 
 import (
-	"github.com/GaryBoone/GoStats/stats"
+	stats "github.com/GaryBoone/GoStats/stats"
 	mqtt "github.com/eclipse/paho.mqtt.golang"
 )
 

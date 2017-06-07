@@ -8,7 +8,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/GaryBoone/GoStats/stats"
+	stats "github.com/GaryBoone/GoStats/stats"
 	"math"
 	"runtime"
 )

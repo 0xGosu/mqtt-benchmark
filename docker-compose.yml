@@ -1,0 +1,10 @@
+version: '2'
+services:
+  gobuild_linux:
+    image: golang:1.8
+    environment:
+      CGO_ENABLED: "0"
+    volumes:
+      - .:/usr/local/go/src/github.com/tranvietanh1991/mqtt-benchmark
+    working_dir: /usr/local/go/src/github.com/tranvietanh1991/mqtt-benchmark
+    command: bash gobuild_tool.sh
