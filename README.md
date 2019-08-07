@@ -8,8 +8,6 @@ Installation:
 go get github.com/tranvietanh1991/mqtt-benchmark
 ```
 
-This is a fork version with more funtionality from this repo (https://github.com/kovetskiy/mqtt-benchmark).
-
 The tool supports multiple concurrent clients, configurable message size, etc:
 ```
 > mqtt-benchmark --help
